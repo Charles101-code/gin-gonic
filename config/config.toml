@@ -1,0 +1,24 @@
+# This is a TOML document. Boom.
+title = "gin-gonic"
+
+[owner]
+name = "Charles Shao"
+email = "charles.shaoyl@gmail.com"
+dob = 1979-05-27T07:32:00Z # First class dates? Why not?
+
+[database]
+server = "127.0.0.1"
+port = 3306
+connection_max = 5000
+enabled = true
+
+[server]
+ip = ""
+dc = ""
+port = ":8081"
+
+
+
+
+
+
